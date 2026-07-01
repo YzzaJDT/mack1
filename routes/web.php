@@ -3,8 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia; // ✅ ADD THIS
 
+// Route::get('/', function () {
+//     return inertia('Home');
+// });
+
 Route::get('/', function () {
-    return inertia('Home');
+    return 'Laravel is working!';
 });
 
 Route::get('/Properties', function () {
